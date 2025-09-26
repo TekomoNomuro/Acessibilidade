@@ -287,106 +287,152 @@
               </figcaption>
             </figure>
           </a>
-           <button class="secaoDEstaque-form-botao btnPadrao btnPadrao--pequeno" id="abreDialog">
-            Receber destaque por email
-           </button>
-
-         
+            <button class="secaoDestaques-form-botao btnPadrao btnPadrao--pequeno" id="abreDialog">
+              Receber destaques por email
+            </button>          
         </div>
         <div class="dialogNewsletter" id="dialogNewsletter">
           <div class="dialogNewsletter-body">
-           
+
             <h2 class="dialogNewsletter-titulo">News sem spam</h2>
             <h3 class="dialogNewsletter-texto">
-              Assine nossa dialogNewsletter para receber notícias técnica sem spam!
+              Assine nossa dialogNewsletter para receber notícias técnicas sem spam!
             </h3>
-             <form class="dialogNewsletter-form">
-              <label class="dialogNewsletter-label">
-                Email:
-                <input type="text" class="dialogNewsletter-campo" placeholder="Digite seu Email...">
+              <form class="dialogNewsletter-form">
+                <label class="dialogNewsletter-label">
+                  Email:
+                </label>
+                <input type="text" class="dialogNewsletter-campo" placeholder="Digite seu e-mail...">
                 <button class="dialogNewsletter-btn">
-                        Assinar dialogNewsletter
-                    </button>
-                    <button class="dialogNewsletter-fechar">
-                        X
-                    </button>
-                </form>
-            </div>
-            <div class="dialogNewsletter-overlay"></div>
-         </div>
-       </section>
+                  Assinar dialogNewsletter
+                </button>
+                <button class="dialogNewsletter-fechar">
+                  X
+                </button>
+              </form>
+          </div>
+          <div class="dialogNewsletter-overlay"></div>
+        </div><!--fim.dialogNewsletter-->
 
-       <section class="secaoContato">
-        <div class="container">
-            <h2 class="tituloPadrao">
-                CONTATO
-            </h2>
+    </section><!--fim.secaoDestaques-->
 
-          <form class="secaoContato-form"></form>
-       
-          <p class="secaoContato-form-legend">
-            Oi, tudo bem? fale com a gente!
-            preencha seus dados e sua mensagem:
-          </p>
+    <section class="secaoContato"><!--Início da secao Contato-->
+       <div class="container">
+        <h2 class="tituloPadrao">
+          CONTATO
+        </h2>
 
-        <div class="contatoCampo contatoCampo--sucesso">
+        <form class="secaoContato-form">
+         
+         <p class="secaoContato-form-legend">
+          Oi, tudo bem? Fale com a gente!
+          Preencha seus dados e sua mensagem:
+         </p>
+
+         <div class="contatoCampo contatoCampo--sucesso">
           <label>Nome:</label>
-          <input type="text" class="contatoCampo--validouFoi" value="Diego Souza Lima" required>
-</div>
+          <input type="text" class="contatoCampo--validouFoi" value="Bruna Kwiatkovski" required>
+         </div>
 
-           
-            <div class="contatoCampo contatoCampo--erro">
-                <label>Email:</label>
-                <input type="email" class="contatoCampo--validouErro" required>
-                <span class="contatoCampo-msg contatoCampo-msg--erro">
-                    Você quis dizer <a href="#" >escola.pr.gov.br</a>
-                </span>
-            </div>
+         <div class="contatoCampo contatoCampo--erro">
+          <label>Email:</label>
+          <input type="email" class="contatoCampo--validouErro" required>
+          <span class="contatoCampo-msg contatoCampo-msg--erro">
+            Você quis dizer <a href="#">escola.pr.gov.br</a>
+          </span>
+         </div>
 
+          <div class="contatoCampo contatoCampo--erro">
+          <label>Telefone:</label>
+          <input type="text" class="contatoCampo--validouErro" placeholder="(46 98831-5555)">
+          <span class="contatoCampo-msg contatoCampo-msg--erro"> Faltou o DDD</span>
+          </span>
+         </div>
 
-            <div class="contatoCampo contatoCampo--erro">
-                <label>Telefone:</label>
-                <input type="text" class="contatoCampo--validouErro" placeholder="(46 999200464)">
-                <span class="contatoCampo-msg contatoCampo-msg--erro"> Faltou o DDD</span>
-                </span>
-            </div>
-
-            <div class="contatoCampo">
-                <label>CEP:</label>
-                <input type="text" maxlength="8" placeholder="Exemplo: 85555-000" required>
-            </div>
+         <div class="contatoCampo">
+          <label>CEP:</label>
+          <input type="text" maxlength="8" placeholder="Exemplo: 85555-000" required>
+         </div>
 
 
          <div class="contatoCampo">
-                <label>Edereço:</label>
-                <input type="text" class="contatoCampo-campoDesabilitado" disabled value="Rua clevelandia">
-            </div>
+          <label>Endereço:</label>
+          <input type="text" class="contatoCampo-campoDesabilitado" disabled value="Rua Clevelandia">
+         </div>
 
-            <div class="contatoCampo">
-                <label>Bairro:</label>
-                <input type="text" class="contatoCampo-campoDesabilitado" disabled value="Centro">
-            </div>
+         <div class="contatoCampo">
+          <label>Bairro:</label>
+          <input type="text" class="contatoCampo-campoDesabilitado" disabled value="Centro">
+         </div>
 
-            <div class="contatoCampo">
-                <label>Cidade:</label>
-                <input type="text" class="contatoCampo-campoDesabilitado" disabled value="Palmas">
-            </div>
-
-            <div class="contatoCampo">
-                <label>Edereço:</label>
-                <input type="text" class="contatoCampo-campoDesabilitado" disabled value="Rua clevelandia">
-            </div>
-
-
+         <div class="contatoCampo">
+          <label>Cidade:</label>
+          <input type="text" class="contatoCampo-campoDesabilitado" disabled value="Palmas">
+         </div>
+        </form>
        
-          </form>
-       
+      </div>
+    </section><!--fim .secaoContato-->
+
+    <section class="secaoInstitucional">
+      <div class="container">
+        <h2 class="tituloPadrao">
+          Institucional
+        </h2>
+
+        <div class="secaoInstitucional-coluna">
+          <p>
+            Um pouco mais sobre a Apeperia
+          </p>
+          <address class="secaoInstitucional-endereço">
+            Rua Vergueiro, 3185 <br> Vila Mariana, São Paulo
+          </address>
+          <p class="secaoInstitucional-telefone">
+            (11) 5571-2751 ou <a href="#"> contato#peperia.com</a>
+          </p>
         </div>
 
+        <video src="img/formacao-java.mp4" class="secaoInstitucional-video">
+        </video>
+      </div>
+    </section><!--fim.secaoInstitucional-->
+  </main>
+     <footer class="rodapé">
+      <div class="container">
+          <img src="Acessibilidade/src/img/logo-apeperia.svg" class="rodape-logo" alt="Logotipo apeperia">
+          <ul class="rodape-social">
+            <li>
+              <a href="#" class="rodape-social-link rodape-social-link-facebook">
+                Facebook da Apeperia
+              </a>
+            </li>
 
-       </section>
- 
- 
-    </main>
+            <li>
+              <a href="#" class="rodape-social-link rodape-social-link-twitter">
+                Twitter da Apeperia
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="rodape-social-link rodape-social-link-instagram">
+                Instagram da Apeperia
+              </a>
+            </li>
+          </ul>
+
+      <nav class="rodape-nav">
+        <ul>
+          <li class="rodape-nav-item"><a href="#" class="rodape-nav-link">Sobre</a></li>
+          <li class="rodape-nav-item"><a href="#" class="rodape-nav-link">Planos</a></li>
+          <li class="rodape-nav-item"><a href="#" class="rodape-nav-link">Blog</a></li>
+          <li class="rodape-nav-item"><a href="#" class="rodape-nav-link">Destaques</a></li>
+          <li class="rodape-nav-item"><a href="#" class="rodape-nav-link">Institucional</a></li>
+          <li class="rodape-nav-item"><a href="#" class="rodape-nav-link">Contato</a></li>
+        </ul>
+      </nav>    
+      </div>
+     </footer>
+     <script src="js/carousel.js"></script>
+     <script src="js/dialog.js"></script>
 </body>
 </html>
